@@ -82,9 +82,6 @@ Metrics are printed and also saved in CSV format for later comparison.
 ▶️ 6. How to Run Everything
 To launch all experiments sequentially, run:
 
-
-
-
 use the function run_all() which executes the following sub-function:
 
 
@@ -97,7 +94,6 @@ quantization_model()
 📊 7. Check Results
 Each model’s evaluation results are written into a CSV file:
 
-multiclass_base_metrics.csv
+multiclass_(technique)_metrics.csv
 
-multiclass_pruning_metrics.csv
 
