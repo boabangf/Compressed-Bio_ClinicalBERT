@@ -4,7 +4,7 @@ This project focuses on developing efficient transformer-based models for automa
 We evaluate the models using F1 score, precision, recall, and AUROC across training epochs. The results demonstrate that optimized models can reliably extract symptoms from clinical narratives, making them suitable for deployment in resource-constrained healthcare environments.
 
 
-Dataset: https://www.kaggle.com/datasets/bilal1907/mimic-iii-10k
+**Dataset**: https://www.kaggle.com/datasets/bilal1907/mimic-iii-10k
 
 **CITATION**
 
@@ -15,7 +15,7 @@ critical care database. Scientific Data, 3:160035, 2016.
 **Requirement**
 
 
-Symptom Extraction Instructions (ClinicalBERT Multiclass Version)
+**Symptom Extraction Instructions (ClinicalBERT Multiclass Version)**
 
 1. Install Dependencies
 Ensure you have Python ≥3.8 and install required packages:
@@ -94,7 +94,7 @@ lowrank_model()
 distillation_model()
 quantization_model()
 
-📊 7. Check Results
+7. Check Results
 Each model’s evaluation results are written into a CSV file:
 
 multiclass_(technique)_metrics.csv
