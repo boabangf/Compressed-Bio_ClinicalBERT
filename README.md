@@ -21,7 +21,7 @@ Symptom Extraction Instructions (ClinicalBERT Multiclass Version)
 Ensure you have Python ≥3.8 and install required packages:
 
 pip install transformers datasets scikit-learn pandas torch
-If you're using Jupyter or Colab, run:
+If you're using Jupyter  or Colab on AWS or GCP instance, run:
 !pip install transformers datasets scikit-learn pandas torch
 
 📁 2. Prepare Your Dataset
