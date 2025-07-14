@@ -24,7 +24,7 @@ pip install transformers datasets scikit-learn pandas torch
 If you're using Jupyter  or Colab on AWS or GCP instance, run:
 !pip install transformers datasets scikit-learn pandas torch
 
-📁 2. Prepare Your Dataset
+ 2. Prepare Your Dataset
 You should have a file named:
 
 NOTEEVENTS_random.csv (sampled subset of MIMIC-III clinical notes)
@@ -51,7 +51,7 @@ Drops samples with no matching symptoms
 
 No manual annotation is required!
 
-🧠 4. Model Training
+ 4. Model Training
 The code fine-tunes five versions of emilyalsentzer/Bio_ClinicalBERT:
 
 Version	Description
@@ -71,7 +71,7 @@ Tracks metrics per epoch: accuracy, precision, recall, F1, AUROC
 
 Saves metrics to .csv (e.g. multiclass_base_metrics.csv)
 
-📈 5. Evaluation
+ 5. Evaluation
 After each epoch, the model is evaluated on a held-out test set using:
 
 Accuracy
@@ -82,7 +82,7 @@ AUROC (One-vs-Rest for multiclass)
 
 Metrics are printed and also saved in CSV format for later comparison.
 
-▶️ 6. How to Run Everything
+▶ 6. How to Run Everything
 To launch all experiments sequentially, run:
 
 use the function run_all() which executes the following sub-function:
